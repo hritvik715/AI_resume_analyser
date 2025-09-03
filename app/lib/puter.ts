@@ -352,7 +352,10 @@ export const usePuterStore = create<PuterStore>((set, get) => {
           ],
         },
       ],
+
+      //imp-> 👇claude sonet-4 AI use kar rha hai ye feedback dene kay liye
       { model: "claude-sonnet-4" }
+      // { model: "claude-sonnet-3-7-sonnet" }
     ) as Promise<AIResponse | undefined>;
   };
 
